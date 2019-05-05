@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Waris} % Your first name
+\familyname{Gill} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\mobile{+92 (317) 810 9086}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{waris.gill@outlook.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2018--Present}{MS Computer Science, Koc University, Turkey}{}{}{}{Relevant Courses: Machine Learning, Algorithm Design Analysis}
+\cventry{2013--2017}{BS Computer Science, LUMS, Pakistan}{}{}{}{Relevant Courses: Operating Systems, Databases, Internet of Things, Network-Centric Computing, Network Security, Computer Networks, Data Mining, Advanced Programming}  % Arguments not required can be left empty
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2018--Present}{Graduate Research Assistant}{Department of Computer Science Koc University}{Turkey}{}{I am currently working with Dr. Attila Gursoy and Dr. Oznur Ozkasap.}
+
+\cventry{2017--2018}{Research Assistant}{Department of Computer Science LUMS}{Pakistan}{}{I worked under Dr. Fareed Zaffar on multiple research projects related to Machine Learning and Data Visualization.}
+
+\cventry{2016}{Teaching Assistant}{Department of Computer Science LUMS}{Pakistan}{}{Introduction to Programming (CS-200) \\\ This course focused on procedural as well as object-oriented programming concepts
+using C++.I was responsible for setting and grading different instruments of the course
+such as quizzes, assignments and labs. I was also responsible for conducting tutorials
+and review sessions for the course.}
+
+\cventry{2014--2016}{Student Intern}{Information Systems And Technology (IST) LUMS}{Pakistan}{}{Maintain the academic and administrative computing facilities at LUMS.}
+
+\section{Research Projects}
+\cventry{2017--2018}{Editorial Support System -- Moodistan}{}{}{}{ I worked on the text analysis project called Moodistan, this project extracted knowledge form the news articles and stored it in the form of graph. I joined this project at the stage where knowledge extracted from the Graphs was being stored in the form of the RDF files. Upon that we started building the Editorial Support System, that has the graph of the topics being discussed in the media, we analyzed the articles using topic modeling and then used DbPedia to create the topic and subtopic graph. I developed a whole searchable graph of topics, using which the users could track the articles related the each topic. After this I worked another tool, that allowed twitter analysis of single user and comparison of multiple users using their tweets, retweets and followers data. Using this data we were able to map influence of the users in a graphical form.}
+
+\cventry{2016--2017}{Harnessing Corrupt Packets In Wireless Sensor Networks}{(Senior Year Project)}{}{}{In current WSN protocols partially corrupt packets are discarded which results in information loss and as well as increase in latency. In this project I explored the network stack of TinyOS and designed a new interface to receive corrupt packets so as to mitigate the effects of packet corruption. Along with this I have done exhaustive analysis on the corrupt packets and proposed a simplistic recovery algorithm depending on some observations like 25 percent of the corrupt packets have just only 1 corrupt hex symbol and some symbols were more stable as compared to others etc. So, these packets were potentially recoverable at the base station.}
+
+\cventry{2017}{Using Web Crawlers for Feature Extraction of Social Nets for Analysis}{(Paper in ITNG)}{}{}{This paper represents a crawler based feature extraction technique for social network analysis. I have designed crawlers for Facebook, twitter and for Instagram which crawl publicly available data on aforementioned social networks. I have also formatted the crawl data and also have done some preprocessing on it. These crawlers provide a set of features with open APIs that can be easily used and integrated in any application.}
+
+\cventry{2016}{Indoor Navigation System without GPS}{(CS 677-IOT Course Project)}{}{}{GPS cannot be used for indoor navigation as microwaves are greatly attenuated by roofs and walls.In this technique we have proposed a solution for indoor navigation using different mobile phone sensors. We have used earth magnetic field, linear acceleration and angular rate to determine the location and movement inside the building. We have used mobile phone gyroscope and accelerometer to compute the traveled distance and got direction of motion using magnetometer, gyroscope and rough GPS location.}
+
+
+\section{Course Projects}
+\cvitem{--}{Multi-player Server-Based Board Game using NodeJS}
+\cvitem{--}{Operating System Kernel (Nachos Operating System)}
+\cvitem{--}{Distributed Proxy Server in C}
+\cvitem{--}{Bubble Trouble and Racing Car Game in Matlab}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Programming Languages}{C, C++, nesC, Python, Java, Haskell, HTML, CSS, JavaScript, NodeJS}
+\cvitem{Databases}{SQL, MongoDB, Neo4j}
+\cvitem{Tools and APIs}{Matlab, Wireshark, Git, Emacs, Cooja, Contiki, TinyOS}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Honours and Awards}
+\cvitem{2013--2017}{LUMS NOP Scholarship}
+\cvitem{2011--2012}{Punjab College Merit Scholarship}
+
+\section{References}
+\cvitem{--}{Dr. Muhammad Fareed Zaffar}
+\cvitem{--}{Dr. Basit Shafiqe}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
